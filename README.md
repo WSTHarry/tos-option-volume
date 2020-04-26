@@ -1,21 +1,22 @@
 # tos-option-volume
-Thinkscripts to pull call and option volume and plot them as an overlayed histogram. 
-Initial script by JeanTann3n. 
-Refactored and optimized by Wahakalaka. 
+Thinkscript indictor that graphs the volume of SPX options. I've found this usefull to track intraday SPY movements. Large SPX options volume seems to be much more correlated with SPY then SPY option volume.
 
-Make sure to set same-day date alpha transparency in the Study options. CreateColor does not allow alpha to be specified. 
+- This is forked from an original repo from JeanTann3n. 
 
 ![Options Volume](/screenshot.PNG)
 
 # Notes
-
- - There is a lot of data being processed, so we recommend using a longer aggregation period or a shorter time interval if you're seeing performance issues.
+ - The options will turn red/blue if the volume is > 1000.
+ - There is a lot of data being processed, I would recommend using a longer aggregation period or a shorter time interval if you're seeing performance issues. This will still work on 1 min interval I prefer 2min.
+ - I would suggest upping your RAM to as high as possible.
  - Currently strikes are pulled in dollar increments.
- - Something like SPSX is going to be difficult because of the number of strikes.
  - It might take a while to load everything, be patient.
- - Futures (/ES, etc) aren't working currently due to the way option symbols are matched. (Todo hardcode a fix for /ES)
- - Strike ranges and expirations need to be set manually, right now. On the plus side this allows for effective filtering to a specific delta range if you look up what the strike range is for the equivalent delta range.
+ - This is **ONLY** for SPX
+ - Strike ranges and expirations need to be set manually but they can be pretty large. On the plus side this allows for effective filtering to a specific delta range if you look up what the strike range is for the equivalent delta range.
  - The volume data is not raw order data, so specific sale prices, order sizes, etc. cannot be inferred.
 
+# How to Install
+Clone the repo or download the files. Click studies --> import then browse to the .ts files.
 
-Feel free to ping @jeantann3n or @Wahakalaka with questions or suggestions! 
+
+Feel free to ping me @harrib or @jeantann3n with questions or add issues/bugs in github! 
