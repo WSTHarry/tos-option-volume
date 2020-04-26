@@ -1,9 +1,9 @@
 # tos-option-volume
 Thinkscript indictor that graphs the volume of SPX options. I've found this usefull to track intraday SPY movements. Large SPX options volume seems to be much more correlated with SPY then SPY option volume.
 
-- This is forked from an original repo from JeanTann3n. 
+- This is forked from an original repo from JeanTann3n.
 
-![Options Volume](/screenshot.PNG)
+
 
 # Notes
  - The options will turn red/blue if the volume is > 1000.
