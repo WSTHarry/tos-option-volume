@@ -3,10 +3,12 @@ Thinkscript indictor that graphs the volume of SPX options. I've found this usef
 
 - This is forked from an original repo from JeanTann3n.
 
+![Options Volume](/new_screenshot.PNG)
 
 
 # Notes
  - The options will turn red/blue if the volume is > 1000.
+ - The "hours to graph" input is assuming 1 min aggregation
  - There is a lot of data being processed, I would recommend using a longer aggregation period or a shorter time interval if you're seeing performance issues. This will still work on 1 min interval I prefer 2min.
  - I would suggest upping your RAM to as high as possible.
  - Currently strikes are pulled in dollar increments.
