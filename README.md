@@ -7,7 +7,7 @@ Thinkscript indictor that graphs the volume of SPX options. I've found this usef
 
 Another example (excuse the terrible use of Paint)
 
-![Options Volume](/screenshot_2.PNG)
+![SPX Volume](/screenshot_2.png)
 
 
 # Notes
