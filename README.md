@@ -5,6 +5,10 @@ Thinkscript indictor that graphs the volume of SPX options. I've found this usef
 
 ![Options Volume](/new_screenshot.PNG)
 
+Another example (excuse the terrible use of Paint)
+
+![Options Volume](/screenshot_2.PNG)
+
 
 # Notes
  - The options will turn red/blue if the volume is > 1000.
