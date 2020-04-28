@@ -18,7 +18,7 @@ Another example (excuse the terrible use of Paint)
  - I would suggest upping your RAM to as high as possible.
  - Currently strikes are pulled in dollar increments.
  - It might take a while to load everything, be patient.
- - This is **ONLY** for SPX
+ - This is **ONLY** for SPX Options
  - Strike ranges and expirations need to be set manually but they can be pretty large. On the plus side this allows for effective filtering to a specific delta range if you look up what the strike range is for the equivalent delta range.
  - The volume data is not raw order data, so specific sale prices, order sizes, etc. cannot be inferred.
 
